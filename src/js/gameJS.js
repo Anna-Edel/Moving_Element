@@ -17,7 +17,7 @@ class Game {
     let lastElemId = id;
     setInterval(() => {
       console;
-      this.widget.item(lastElemId).innerHTML = `${lastElemId + 1}`;
+      this.widget.item(lastElemId).innerHTML = '';
       this.widget.item(id).innerHTML = '<img src="goblin.png" alt="">';
       lastElemId = id;
       id = this.randomId(id);
