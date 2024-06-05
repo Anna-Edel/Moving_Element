@@ -1,0 +1,8 @@
+.impactField {
+    width: 150px;
+    height: 150px;
+    border: solid 2px black;
+    color: red;
+    text-align: center;
+    border-radius: 10px;
+}
