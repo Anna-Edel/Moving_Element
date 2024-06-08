@@ -18,7 +18,7 @@ class Game {
     setInterval(() => {
       console;
       this.widget.item(lastElemId).innerHTML = '';
-      this.widget.item(id).innerHTML = '<img src="goblin.png" alt="">';
+      this.widget.item(id).innerHTML = '<img src="../img/goblin.png" alt="">';
       lastElemId = id;
       id = this.randomId(id);
     }, 1000);
