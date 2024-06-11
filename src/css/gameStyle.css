@@ -5,3 +5,7 @@
     text-align: center;
     border-radius: 10px;
 }
+
+.invisible {
+    display: none;
+}
