@@ -13,12 +13,12 @@ class Game {
   }
 
   replaceField() {
+    const content = this.widget.item(0).innerHTML
     let id = Math.floor(Math.random() * 16);
-    let lastElemId = id;
+    let lastElemId = 0;
     setInterval(() => {
-      console;
       this.widget.item(lastElemId).innerHTML = '';
-      this.widget.item(id).innerHTML = '<img src="goblin.png" alt="">';
+      this.widget.item(id).innerHTML = content;
       lastElemId = id;
       id = this.randomId(id);
     }, 1000);
